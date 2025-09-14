@@ -2,3 +2,7 @@ node_modules
 .pnpm-debug.log
 dist-examples
 photos
+.env
+telegraf-test-bot/.env
+.env
+telegraf-test-bot/.env
