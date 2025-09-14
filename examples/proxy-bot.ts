@@ -1,5 +1,6 @@
 import { Telegraf } from "telegraf";
 import { HttpsProxyAgent } from "https-proxy-agent";
+import 'dotenv/config'; // automatically loads .env
 
 const { HTTPS_PROXY_HOST, HTTPS_PROXY_PORT } = process.env;
 

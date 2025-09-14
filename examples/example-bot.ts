@@ -1,4 +1,5 @@
 import { Context, session, Telegraf } from "telegraf";
+import 'dotenv/config'; // automatically loads .env
 
 const { reply, fork } = Telegraf;
 

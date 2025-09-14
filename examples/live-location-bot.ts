@@ -1,4 +1,5 @@
 import { Telegraf } from "telegraf";
+import 'dotenv/config'; // automatically loads .env
 
 // @ts-ignore
 function sendLiveLocation(ctx) {

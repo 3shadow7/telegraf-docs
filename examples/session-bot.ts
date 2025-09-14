@@ -1,4 +1,5 @@
 import { Context, session, Telegraf } from "telegraf";
+import 'dotenv/config'; // automatically loads .env
 
 interface SessionData {
 	messageCount: number;

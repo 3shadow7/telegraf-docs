@@ -1,4 +1,5 @@
 import { Telegraf, Markup } from "telegraf";
+import 'dotenv/config'; // automatically loads .env
 
 const gameShortName = "your-game";
 const gameUrl = "https://your-game.tld";

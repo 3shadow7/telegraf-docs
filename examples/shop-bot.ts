@@ -1,4 +1,5 @@
 import { Telegraf, Markup } from "telegraf";
+import 'dotenv/config'; // automatically loads .env
 
 if (process.env.PROVIDER_TOKEN === undefined) {
 	throw new TypeError("PROVIDER_TOKEN must be provided!");

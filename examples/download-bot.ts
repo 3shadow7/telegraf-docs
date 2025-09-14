@@ -2,6 +2,7 @@ import { Telegraf } from "telegraf";
 import { message } from "telegraf/filters";
 import { mkdirSync, createWriteStream } from "node:fs";
 import { Writable } from "node:stream";
+import 'dotenv/config'; // automatically loads .env
 
 // ensure photos directory exists
 mkdirSync("./photos", { recursive: true });

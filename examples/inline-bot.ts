@@ -1,5 +1,6 @@
 import { Telegraf, Markup } from "telegraf";
 import { InlineQueryResult } from "telegraf/types";
+import 'dotenv/config'; // automatically loads .env
 
 const bot = new Telegraf(token);
 

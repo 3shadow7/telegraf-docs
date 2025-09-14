@@ -1,5 +1,6 @@
 // https://core.telegram.org/bots#deep-linking
 import { Telegraf } from "telegraf";
+import 'dotenv/config'; // automatically loads .env
 
 const { BOT_TOKEN } = process.env;
 if (!BOT_TOKEN) throw new Error('"BOT_TOKEN" env var is required!');

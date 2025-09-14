@@ -1,5 +1,9 @@
 import { Telegraf, Markup } from "telegraf";
-
+import 'dotenv/config'; // automatically loads .env
+const token = process.env.BOT_TOKEN;
+if (!token) {
+  throw new Error("BOT_TOKEN is not defined in environment variables.");
+}
 const bot = new Telegraf(token);
 
 bot.use(Telegraf.log());

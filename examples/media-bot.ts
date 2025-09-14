@@ -1,5 +1,6 @@
 import { Telegraf, Markup } from "telegraf";
 import fs from "fs";
+import 'dotenv/config'; // automatically loads .env
 
 const AnimationUrl1 = "https://media.giphy.com/media/ya4eevXU490Iw/giphy.gif";
 const AnimationUrl2 = "https://media.giphy.com/media/LrmU6jXIjwziE/giphy.gif";

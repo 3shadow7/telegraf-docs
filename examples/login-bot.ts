@@ -1,4 +1,5 @@
 import { Telegraf, Markup } from "telegraf";
+import 'dotenv/config'; // automatically loads .env
 
 const keyboard = Markup.inlineKeyboard([
 	Markup.button.login("Login", "http://domain.tld/hash", {

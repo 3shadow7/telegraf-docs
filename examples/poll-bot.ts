@@ -1,4 +1,5 @@
 import { Telegraf, Markup } from "telegraf";
+import 'dotenv/config'; // automatically loads .env
 
 const keyboard = Markup.keyboard([
 	Markup.button.pollRequest("Create poll", "regular"),

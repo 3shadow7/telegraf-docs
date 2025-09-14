@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-floating-promises */
 import { Context, Telegraf, Telegram } from 'telegraf'
 import { Update, UserFromGetMe } from 'typegram'
+import 'dotenv/config'; // automatically loads .env
 
 const token = process.env.BOT_TOKEN
 if (token === undefined) {
